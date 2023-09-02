@@ -1,0 +1,15 @@
+# Plugin made by andreivacariu
+# Each setting will be explained below.
+# DM @andreivacariu. on discord for help.
+
+gui:
+   name: "&7Delivery Menu"
+   slots: 27
+   fillingItem: BLACK_STAINED_GLASS_PANE
+
+messages:
+   delivery:
+      startedDelivery: "&7Started delivery, go to %location%."
+      deliveryAlreadyStarted: "&7You already have a delivery active! Finish the delivery first."
+      finishedDelivery: "&7You just finished a tier %tier% delivery, and you earned &6%coins%!"
+      failedToStartDelivery: "&4Failed to start Quest, please contact an Admin."

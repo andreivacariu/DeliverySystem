@@ -1,0 +1,22 @@
+name: DeliverySystem
+version: 1.0.0
+main: dev.vacariu.DeliverySystem.Main
+description: Delivery System plugin
+author: andreivacariu
+website: vacariu.dev
+api-version: '1.16'
+depend: [RedLib, Vault, Citizens]
+commands:
+  delivery:
+    description: Opens up the delivery GUI
+    aliases:
+      - deliveries
+      - livrari
+    permission: delivery.menu
+    permission-message: You do not have permission!
+    usage: /<command>
+  deliveryadmin:
+    description: Create a NPC to deliver an item to.
+    permission: delivery.admin
+    permission-message: You do not have permission!
+    usage: /<command> create <npc-name> <tier>
